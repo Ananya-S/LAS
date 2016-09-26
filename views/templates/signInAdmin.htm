@@ -1,0 +1,28 @@
+<div class="container">
+	<div class="col-md-6 col-md-offset-3">
+		<div class="row">
+			<h2>Admin Sign In</h2>
+			<form>
+				<div class="form-group">
+					<label for="email">Email</label>
+					<input type="text" class="form-control" name="email" placeholder="Email Address" ng-model="email">
+					<label for="password">Password</label>
+					<input type="password" class="form-control" name="password" placeholder="Enter password" ng-model="password">
+				</div>
+			</div>
+			<div class="row">
+				<div class="checkbox">
+					<label><input type="checkbox" value="">Remember me</label>
+				</div>
+			</div>
+			<div class="row">
+			<button class="btn btn-success" ng-click="submit()">Submit</button>
+			</div>
+			<div class="row">
+				<div class="newuser" type="label">Not an existing admin? <a ui-sref="signUpAdmin">Sign Up Admin</a>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+</div>
